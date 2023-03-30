@@ -1,0 +1,25 @@
+
+
+@keyframes toTop {
+    from {
+        top: 0;
+    }
+    to {
+        top: -1rem;
+    }
+}
+
+@keyframes rot-left {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+}

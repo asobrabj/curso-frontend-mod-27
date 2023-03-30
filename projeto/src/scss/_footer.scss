@@ -1,0 +1,41 @@
+footer {
+    
+    p {
+        color: $font-color-primary;
+        font-size: $font-size-default;
+        a {
+            color: $color-secondary;
+        }
+    }
+
+   
+}
+
+.contato{
+    float: left; 
+    width: 50%;
+
+    h3{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.localizacao{
+    float: right; 
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+
+    .contato, .localizacao{
+
+        h1{
+        font-size: 1rem;
+        }
+        h3{
+            font-size: 0.75rem;
+            }
+    }
+
+}
